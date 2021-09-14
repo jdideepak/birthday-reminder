@@ -1,0 +1,47 @@
+.person-details {
+  display: flex;
+  align-items: center;
+}
+
+.person-profile-pic {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+.person-name-age-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.person-name {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  color: #100e14;
+  font-weight: 500;
+}
+
+.person-age {
+  margin-top: 0.1rem;
+  font-size: 1rem;
+  color: #5d5966;
+}
+
+.edit-icon {
+  margin: auto;
+  margin-right: 0;
+  cursor: pointer;
+  padding: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.edit-icon:hover {
+  background-color: #ebebe4;
+  box-shadow: #ebebe4 0px 5px 15px;
+  border-radius: 50%;
+}

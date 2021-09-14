@@ -1,0 +1,25 @@
+let randomImagesList = [
+  "gcWd0ts4RCo",
+  "YdAqiUkUoWA",
+  "aolmXcUxr7Y",
+  "NoXUQ54pDac",
+  "tNm6DL_nO",
+  "eOpewngf68w",
+  "cssvEZacHvQ",
+  "jFCViYFYcus",
+  "mawU2PoJWfU",
+  "G85VuTpw6jg",
+  "WHPsxhB4mWQ",
+  "prIk6PdCrgg",
+  "ZDKDamAi-3c",
+  "LePMMF_s9uY",
+  "6Jsf8Hyz77A",
+  "qhEa09mqSno",
+  "4RpN43_bWs",
+  "4riD_gAK2Z4",
+  "wDLYk85PkCg",
+  "Eb_2ItJvcI8",
+  "cEg2T3i-sPU",
+]
+
+export default randomImagesList

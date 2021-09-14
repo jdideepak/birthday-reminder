@@ -1,0 +1,23 @@
+.dob-container {
+  display: flex;
+  color: #5d5966;
+}
+
+.dob-container .dob-item {
+  margin-right: 15px;
+}
+
+.dob-container .dob-item:last-child {
+  margin-right: 0;
+}
+
+.dob-container .dob-item input {
+  width: 80px;
+  height: auto;
+  /* font-size: 2rem; */
+  font-weight: 400;
+}
+
+.dob-container .dob-item .year {
+  width: 100%;
+}

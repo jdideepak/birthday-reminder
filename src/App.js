@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+// import birthdayList from "./data"
+import Person from "./Person"
+import "./App.css"
+import TodaysCount from "./TodaysCount"
+import Button from "./Button"
+// import birthDayList from "./data"
 
-function App() {
+const App = ({ birthDayList, setBirthDayList }) => {
+  // Function to check whether the person have their birthday on today's date
+  function isBirthdayToday(dateString) {
+    const today = new Date()
+    const birthDate = new Date(dateString)
+    if (
+      today.getUTCMonth() === birthDate.getMonth() &&
+      today.getDate() === birthDate.getDate()
+    ) {
+      return true
+    }
+    return false
+  }
+
+  // console.log("in app", birthDayList)
+  let todaysBirthdayList = birthDayList.filter((person) => {
+    return isBirthdayToday(person.dob) === true
+  })
+
+  let birthdayOnTodayCnt = todaysBirthdayList.length
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <TodaysCount birthdayOnTodayCnt={birthdayOnTodayCnt} />
+      {todaysBirthdayList.map((person) => {
+        return <Person key={person.id} person_details={person} />
+      })}
+      <div className="btn-container">
+        <Button link="/add" btnTitle="Add a new Person" />
+        <Button link="/viewall" btnTitle="View All" />
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+.edit-form {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.form-item {
+  margin: 0.5rem 0;
+}
+
+.form-item label {
+  font-size: inherit;
+  display: block;
+}
+
+.form-item:last-of-type {
+  margin-bottom: 50px;
+}
+
+.form-item input {
+  font-family: inherit;
+  padding: 5px;
+  font-size: inherit;
+  width: 100%;
+  color: #5d5966;
+}
+
+.small-btn {
+  background-color: none;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.small-btn:focus {
+  outline: none;
+}
+
+.small-btn.primary {
+  background-color: #0074d9;
+}
+
+.small-btn.primary:hover {
+  background-color: #0289ff;
+}
+
+.small-btn.danger {
+  background-color: #ff4136;
+}
+
+.small-btn.danger:hover {
+  background-color: #ff0d00;
+}
+
+.small-btn-section {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
