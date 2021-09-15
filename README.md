@@ -1,6 +1,6 @@
 # React Project - Birthday reminder
 ### Checkout my project here
-[I will update link after hosting](#)
+[https://vigilant-fermat-7fa2fd.netlify.app/](https://vigilant-fermat-7fa2fd.netlify.app/)
 
 ## Frontend development workflow
 
