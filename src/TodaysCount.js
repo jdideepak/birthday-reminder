@@ -1,5 +1,6 @@
 import "./TodaysCount.css"
-import logo from "./images/chair-ballon.png"
+// import logo from "./images/chair-ballon.png"
+import logo from "./images/girl-with-ballon.png"
 
 const TodaysCount = ({ birthdayOnTodayCnt }) => {
   if (birthdayOnTodayCnt !== 0)
@@ -12,7 +13,7 @@ const TodaysCount = ({ birthdayOnTodayCnt }) => {
     return (
       <>
         <h1>No birthdays today</h1>
-        <img src={logo} height="300px" alt="nothing showcase" />
+        <img className="empty-img" src={logo} alt="nothing showcase" />
       </>
     )
 }
