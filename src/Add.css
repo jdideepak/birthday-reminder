@@ -22,3 +22,10 @@
   box-shadow: #ebebe4 0px 5px 15px;
   border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+  .top-heading-container .icon {
+    box-shadow: rgb(228, 228, 228) 0px 10px 15px;
+    border-radius: 50%;
+  }
+}

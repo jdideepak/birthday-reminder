@@ -8,10 +8,11 @@
 }
 
 .form-item {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 
 .form-item label {
+  margin-bottom: 5px;
   font-size: inherit;
   display: block;
 }
@@ -60,8 +61,16 @@
 }
 
 .small-btn-section {
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
+}
+
+select {
+  height: auto;
+  width: auto;
+  font: inherit;
+  padding: 5px;
+  padding-right: 10px;
 }

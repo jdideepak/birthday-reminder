@@ -5,16 +5,17 @@
   background-color: #fff;
   padding: 0.5rem 3rem;
   border-radius: 10px;
-  min-height: 500px;
+  min-height: 80vh;
   width: 400px;
   padding-bottom: 1.2rem;
 }
 
 @media (max-width: 768px) {
   .content {
-    margin: 10px 0;
-    margin-bottom: 20px;
-    min-height: auto;
+    margin-top: 10px;
+    /* margin: 10px 0; */
+    /* margin-bottom: 20px; */
+    /* min-height: auto; */
     min-height: 90vh;
     width: 100vw;
     border: none;
@@ -24,6 +25,6 @@
 
 @media (max-width: 468px) {
   .content {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
 }
